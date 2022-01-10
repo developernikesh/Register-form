@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <span>Register</span>
+      <form action="" method="post">
+        <div class="form-group col-2">
+          <label for="first-name"><p class="label">First Name</p></label>
+          <input type="text" name="first-name" id="first-name" required/>
+        </div>
+        <div class="form-group col-2">
+          <label for="last-name"><p class="label">Last Name</p></label>
+          <input type="text" name="first-name" id="last-name" required/>
+        </div>
+        <div class="form-group col-2">
+          <label for="email"><p class="label">E-Mail Address</p></label>
+          <input type="email" name="email" id="email" required/>
+        </div>
+        <div class="form-group col-2">
+            <label for="phone"><p class="label">Phone</p></label>
+            <input type="number" name="phone" id="" required/></div>
+        <div class="form-group col-2">
+            <label for="gender"><p class="label">Gender</p></label>
+            <select name="gender" id="gender" required>
+                <option value="">Select One</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Others</option>
+              </select>
+        </div>
+        <div class="form-group col-2">
+            <label for="course"><p class="label">Course</p></label>
+            <select name="course" id="course" required>
+                <option value="">Select One</option>
+                <option value="bca">BCA</option>
+                <option value="cmat">CMAT</option>
+                <option value="other">Others</option>
+              </select>
+        </div>
+        <div class="form-group col-full">
+            <label for="college-name"><p class="label">Previous Class Name</p></label>
+            <input type="text" name="college-name" id="college-name" required>
+        </div>
+        <div class="form-group col-2">
+            <label for="password"><p class="label">Password</p></label>
+            <input type="password" name="password" id="password" required /> 
+        </div>
+        <div class="form-group col-2">
+            <label for="password"><p class="label">Confirm Password</p></label>
+            <input type="password" name="password" id="password" required />
+        </div>
+        <div class="form-group">
+            <input type="button" value="Register" class="btn"> 
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
